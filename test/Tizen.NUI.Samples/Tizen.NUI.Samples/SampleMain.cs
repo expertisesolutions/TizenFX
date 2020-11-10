@@ -10,7 +10,7 @@ namespace Tizen.NUI.Samples
     {
         public static string GetDaliResourcePath()
         {
-            return Tizen.Applications.Application.Current.DirectoryInfo.Resource + "images/Dali/";
+            return Tizen.Applications.Application.Current.DirectoryInfo.Resource + "images/";
         }
 
         public static string GetFHResourcePath()

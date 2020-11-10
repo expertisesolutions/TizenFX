@@ -46,7 +46,7 @@ namespace Tizen.NUI.Samples
     {
         static private uint mCurPage = 0;
 
-        static public string DEMO_IMAGE_DIR = CommonResource.GetDaliResourcePath() + "DaliDemo/";
+        static public string DEMO_IMAGE_DIR = CommonResource.GetDaliResourcePath();
         static public string LOGO_PATH = DEMO_IMAGE_DIR + "Logo-for-demo.png";
 
         const float TILE_LABEL_PADDING = 8.0f;                          //  Border between edge of tile and the example text
@@ -323,7 +323,7 @@ namespace Tizen.NUI.Samples
             ImageView focusableTile = new ImageView();
 
             focusableTile.SetStyleName("DemoTile");
-            focusableTile.ResourceUrl = CommonResource.GetDaliResourcePath() + "DaliDemo/demo-tile-texture.9.png";
+            focusableTile.ResourceUrl = CommonResource.GetDaliResourcePath() + "demo-tile-texture.9.png";
             focusableTile.PositionUsesPivotPoint = true;
             focusableTile.ParentOrigin = ParentOrigin.Center;
             focusableTile.WidthResizePolicy = focusableTile.HeightResizePolicy = ResizePolicyType.SizeRelativeToParent;
@@ -340,7 +340,7 @@ namespace Tizen.NUI.Samples
             // Create an ImageView for the 9-patch border around the tile.
             ImageView borderImage = new ImageView();
             borderImage.SetStyleName("DemoTileBorder");
-            borderImage.ResourceUrl = CommonResource.GetDaliResourcePath() + "DaliDemo/item-background.9.png";
+            borderImage.ResourceUrl = CommonResource.GetDaliResourcePath() + "item-background.9.png";
             borderImage.PositionUsesPivotPoint = true;
             borderImage.PivotPoint = PivotPoint.Center;
             borderImage.ParentOrigin = ParentOrigin.Center;

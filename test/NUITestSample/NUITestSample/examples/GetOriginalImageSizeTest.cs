@@ -26,7 +26,7 @@ namespace mytest
             win.GetDefaultLayer().Add(v1);
 
             ImageView iv = new ImageView();
-            iv.ResourceUrl = mypath.DirectoryInfo.Resource + @"/images/Dali/DaliDemo/Logo-for-demo.png";
+            iv.ResourceUrl = mypath.DirectoryInfo.Resource + @"/images/Logo-for-demo.png";
             iv.Position2D = new Position2D(50, 200);
             win.GetDefaultLayer().Add(iv);
 
@@ -39,7 +39,7 @@ namespace mytest
 
             //==================
             iv = new ImageView();
-            iv.ResourceUrl = mypath.DirectoryInfo.Resource + @"/images/Dali/DaliDemo/demo-tile-texture.9.png";
+            iv.ResourceUrl = mypath.DirectoryInfo.Resource + @"/images/demo-tile-texture.9.png";
             iv.Position2D = new Position2D(50, 600);
             win.GetDefaultLayer().Add(iv);
 

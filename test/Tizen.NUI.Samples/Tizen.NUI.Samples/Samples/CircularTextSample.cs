@@ -283,7 +283,7 @@ namespace Tizen.NUI.Samples
 
 
         private View root;
-        static string DEMO_IMAGE_DIR = CommonResource.GetDaliResourcePath() + "DaliDemo/";
+        static string DEMO_IMAGE_DIR = CommonResource.GetDaliResourcePath();
         static string IMAGE1 = DEMO_IMAGE_DIR + "application-icon-1.png";
         static string IMAGE2 = DEMO_IMAGE_DIR + "application-icon-6.png";
 
