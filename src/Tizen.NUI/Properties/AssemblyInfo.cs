@@ -19,3 +19,16 @@ using Tizen.NUI;
 [assembly: XmlnsDefinition("http://schemas.microsoft.com/winfx/2009/xaml", "Tizen.NUI.Xaml")]
 [assembly: XmlnsDefinition("http://schemas.microsoft.com/winfx/2009/xaml", "System", AssemblyName = "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
 [assembly: XmlnsDefinition("http://schemas.microsoft.com/winfx/2009/xaml", "System", AssemblyName = "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
+
+// OmniXaml
+[assembly: OmniXaml.Attributes.XmlnsDefinition("http://tizen.org/Tizen.NUI/2018/XAML", "Tizen.NUI")]
+[assembly: OmniXaml.Attributes.XmlnsDefinition("http://tizen.org/Tizen.NUI/2018/XAML", "Tizen.NUI.BaseComponents")]
+[assembly: OmniXaml.Attributes.XmlnsDefinition("http://tizen.org/Tizen.NUI/2018/XAML", "Tizen.NUI.UIComponents")]
+[assembly: OmniXaml.Attributes.XmlnsDefinition("http://tizen.org/Tizen.NUI/2018/XAML", "Tizen.NUI.Xaml")]
+[assembly: OmniXaml.Attributes.XmlnsDefinition("http://tizen.org/Tizen.NUI/2018/XAML", "Tizen.NUI.Binding")]
+[assembly: OmniXaml.Attributes.XmlnsDefinition("http://schemas.microsoft.com/winfx/2006/xaml", "Tizen.NUI.Xaml")]
+[assembly: OmniXaml.Attributes.XmlnsDefinition("http://schemas.microsoft.com/winfx/2006/xaml", "System", AssemblyName = "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
+[assembly: OmniXaml.Attributes.XmlnsDefinition("http://schemas.microsoft.com/winfx/2006/xaml", "System", AssemblyName = "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
+[assembly: OmniXaml.Attributes.XmlnsDefinition("http://schemas.microsoft.com/winfx/2009/xaml", "Tizen.NUI.Xaml")]
+[assembly: OmniXaml.Attributes.XmlnsDefinition("http://schemas.microsoft.com/winfx/2009/xaml", "System", AssemblyName = "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
+[assembly: OmniXaml.Attributes.XmlnsDefinition("http://schemas.microsoft.com/winfx/2009/xaml", "System", AssemblyName = "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
